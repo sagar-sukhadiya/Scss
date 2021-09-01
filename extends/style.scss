@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.div{
+    margin: 5px 0px 0px 35px;
+}
+.box1{
+   
+    background-color: yellowgreen;
+    color: black;
+    border: 2px solid gray;
+    padding: 10px;
+    width: 20vw;
+    height: 20vh;
+    margin: 20px;
+   
+    
+}
+.box2{
+    
+    background-color: yellowgreen;
+    @extend .box1;
+    width: 30vw;
+    height: 20vh;
+    
+   
+}
+.box3{
+   
+    background-color: yellowgreen;
+    @extend .box1;
+    width: 40vw;
+    height: 20vh;
+    
+    
+
+    p{
+        margin: 30px 40px;
+        letter-spacing: .5px;
+    }
+
+}

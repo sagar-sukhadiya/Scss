@@ -1,0 +1,12 @@
+nav {
+  background-color: black;
+  height: 50px; }
+  nav li {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px; }
+    nav li a {
+      color: white;
+      text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+$main-color: yellow;
+$ancor-color:black;
+nav{
+    background-color: $main-color;
+    height: 50px;
+
+
+li{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+a{
+    color: $ancor-color;
+    text-decoration: none;
+}
+}
+
+.left{
+    width: 50%;
+    height: 90vh;
+    background-color: green;
+    margin-top: 10px;
+    display: inline-block;
+   
+}
+.right{
+    width: 50%;
+    height: 90vh;
+    background-color: yellowgreen;
+    display: inline-block;
+}
+.footer{
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
